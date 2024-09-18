@@ -262,26 +262,34 @@ section:nth-of-type(5) h2 {
     font-size: 0.9rem;
 }
 
-/* Footer */
 footer {
-    background-color: #151515;
-    padding: 20px 0;
-    color: white;
+    background-color: #111111;
+    padding: 20px;
     text-align: center;
-}
-
-footer img {
-    width: 50px;
-    margin-bottom: 20px;
-}
-
-footer .social-icons i {
+  }
+  
+  footer section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  footer section img {
+    width: 150px;
+    height: auto;
+  }
+  
+  footer section div {
+    display: flex;
+    gap: 10px;
+  }
+  
+  footer section div i {
     color: white;
-    margin: 0 10px;
-    font-size: 1.5rem;
-}
-
-footer p {
-    font-size: 0.9rem;
-    margin-top: 10px;
-}
+    font-size: 1.5em;
+  }
+  
+  footer p {
+    color: #999;
+    font-size: 0.8em;
+  }
