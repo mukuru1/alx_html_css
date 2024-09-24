@@ -1,0 +1,221 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #fff;
+    background-color: #12172b;
+}
+
+header {
+    background: url('headphones_hero_1.jpg') no-repeat center center/cover;
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .logo img {
+    width: 50px;
+}
+
+nav .menu ul {
+    list-style: none;
+}
+
+nav .menu ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav .menu ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.hero-section {
+    padding: 100px 20px;
+    text-align: center;
+}
+
+.hero-section h1 {
+    font-size: 36px;
+}
+
+.hero-section p {
+    font-size: 18px;
+    margin: 20px 0;
+}
+
+.cta-btn {
+    background-color: #ff595e;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.what-we-do {
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.what-we-do h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.services {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.service-item {
+    text-align: center;
+}
+
+.service-item h3 {
+    margin-top: 10px;
+}
+
+.results {
+    background-color: #1a1f36;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.results h2 {
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+
+.stats {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.stat-item {
+    text-align: center;
+}
+
+.pentagon {
+    position: relative;
+    width: 100px;
+    height: 55px;
+    background-color: #ff595e;
+    margin: 0 auto;
+}
+
+.pentagon:before,
+.pentagon:after {
+    content: '';
+    position: absolute;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+}
+
+.pentagon:before {
+    bottom: 100%;
+    border-bottom: 30px solid #ff595e;
+}
+
+.pentagon:after {
+    top: 100%;
+    width: 0;
+    border-top: 30px solid #ff595e;
+}
+
+.pentagon h3 {
+    color: #fff;
+    font-size: 24px;
+    line-height: 55px;
+    text-align: center;
+    margin: 0;
+}
+
+.stat-item p {
+    margin-top: 10px;
+    color: #fff;
+}
+
+
+.stats {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.stat-item {
+    background-color: #ff595e;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.stat-item h3 {
+    font-size: 24px;
+    color: #fff;
+}
+
+.contact {
+    background-color: #12172b;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.contact h2 {
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact form input,
+.contact form textarea {
+    width: 300px;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.submit-btn {
+    background-color: #ff595e;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #1a1f36;
+    padding: 20px;
+    text-align: center;
+}
+
+footer p {
+    margin-bottom: 10px;
+}
+
+footer .social-media a {
+    margin: 0 10px;
+}
+
+footer .social-media a img {
+    width: 20px;
+}
